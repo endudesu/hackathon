@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일기장</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<div id="container">
+    <!-- Top Menu -->
+    <div id="topMenu">
+        <button class="nav-item" id="homeButton" onclick="goHome()">
+            <span class="ico entypo-home"></span>
+            <p class="caption">Home</p>
+        </button>
+        <button class="nav-item" id="writeTodayDiary">
+            <span class="ico entypo-doc-text"></span>
+            <p class="caption">일기 작성</p>
+        </button>
+        <button class="nav-item search-toggle">
+            <span class="ico entypo-search"></span>
+            <p class="caption"></p>
+        </button>
+    </div>
+
+    <!-- 검색 입력 필드 -->
+    <div class="search-container hidden" id="searchContainer">
+        <input type="text" id="searchKeyword" class="search" placeholder="Search">
+    </div>
+    
+    <!-- 검색 실행 버튼 (검색 토글 버튼) -->
+    <button class="nav-item search-toggle" onclick="toggleSearchAndSearchDiary()">
+        <span class="ico entypo-search"></span>
+    </button>
+    </div>
+    
+
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="diary-list">
+            <h3>그동안의 일기 목록</h3>
+            <ul id="diaryDates"></ul>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div id="frame" class="page"> 
+        <!-- 오늘 일기 작성 섹션 -->
+        <div id="todayDiary" class="diary-content" style="display:grid;">
+            <h2 style="color: white; text-align:center; font-size:40px">오늘의 일기</h2>
+            <div class="messages">
+                <div class="messages-content" id="messages-content"></div>
+            </div>
+            <div id="wrapper">
+                <!-- 메시지 입력 박스 -->
+                <div class="message-box">
+                    <textarea id="diaryEntry" class="message-input" placeholder="일기를 작성하세요" rows="4"></textarea>
+                    <button class="message-submit" onclick="saveDiary()">저장</button>
+                </div>
+            </div>
+        </div>
+        <!-- 과거 일기 표시 섹션 -->
+        <div id="pastDiaries" class="diary-content" style="display: none;">
+            <h2 style="color: white; text-align:center; font-size:40px">과거 일기</h2>
+            <div class="messages-content" id="past-messages-content"></div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript 파일 -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

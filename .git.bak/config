@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[gui]
+	wmstate = normal
+	geometry = 824x435+329+118 179 196
+[lfs]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/endudesu/hackathon.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

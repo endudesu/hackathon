@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 endudesu <ensoo1015@nate.com> 1730103118 +0900	branch: Created from main
+69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 endudesu <ensoo1015@nate.com> 1730120669 +0900	Branch: renamed refs/heads/sss to refs/heads/main
+69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 endudesu <ensoo1015@nate.com> 1730120760 +0900	Branch: renamed refs/heads/main to refs/heads/main
+69e0b4aee1be9071f83198c01a4e2c3d1c9b4a20 e5899bf55c2cc94abbcd4f45bb64be21fe95ca73 endudesu <ensoo1015@nate.com> 1730121045 +0900	commit: first commit
+e5899bf55c2cc94abbcd4f45bb64be21fe95ca73 e5899bf55c2cc94abbcd4f45bb64be21fe95ca73 endudesu <ensoo1015@nate.com> 1730121046 +0900	Branch: renamed refs/heads/main to refs/heads/main
+e5899bf55c2cc94abbcd4f45bb64be21fe95ca73 948adff8dd26d3f95c8450dfe76a3c10b31be4ff endudesu <ensoo1015@nate.com> 1730121565 +0900	commit: Update index.html
+948adff8dd26d3f95c8450dfe76a3c10b31be4ff 948adff8dd26d3f95c8450dfe76a3c10b31be4ff noi <noi@ManeuGram> 1730121842 +0900	Branch: renamed refs/heads/main to refs/heads/main
+948adff8dd26d3f95c8450dfe76a3c10b31be4ff 270ff646cf5f029790e898c984737f345aa18496 endudesu <ensoo1015@nate.com> 1730121889 +0900	commit: first commit
+270ff646cf5f029790e898c984737f345aa18496 270ff646cf5f029790e898c984737f345aa18496 endudesu <ensoo1015@nate.com> 1730121889 +0900	Branch: renamed refs/heads/main to refs/heads/main
+270ff646cf5f029790e898c984737f345aa18496 70ef5c7f313589439d8e7304a538b3363e774db1 endudesu <ensoo1015@nate.com> 1730123153 +0900	commit: first commit
+70ef5c7f313589439d8e7304a538b3363e774db1 70ef5c7f313589439d8e7304a538b3363e774db1 endudesu <ensoo1015@nate.com> 1730123153 +0900	Branch: renamed refs/heads/main to refs/heads/main
+70ef5c7f313589439d8e7304a538b3363e774db1 163359b5c80fd0ca79e06bccf08cd1fbf394c449 endudesu <ensoo1015@nate.com> 1730167018 +0900	commit: 보안: .env 파일 제거 및 .gitignore 추가
